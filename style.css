@@ -1,0 +1,44 @@
+body {
+  line-height: normal;
+  text-align: center;
+}
+
+.card1, .card2, .card3 {
+  background-color: #1e62ab33;
+  box-shadow: 4px 4px 4px #a2b6ca33;
+}
+
+h1 {
+  font-family: Bebas Neue;
+  color:rgb(13, 35, 104);
+  font-size: 28px;
+}
+
+h2, h3 {
+  font-family: Bebas Neue;
+  color:rgb(13, 35, 104);
+  font-size: 20px;
+}
+
+a {
+color:black;
+background-color:azure;
+text-decoration: none;
+}
+
+a:hover {
+  color:#1e62ab33;
+  text-decoration: underline;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
